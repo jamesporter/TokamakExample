@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A182ED9226B9F3800A6F3EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A182ED8226B9F3800A6F3EC /* AppDelegate.swift */; };
+		1A182EDB226B9F3800A6F3EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A182EDA226B9F3800A6F3EC /* ViewController.swift */; };
+		1A182EDE226B9F3800A6F3EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A182EDC226B9F3800A6F3EC /* Main.storyboard */; };
+		1A182EE0226B9F3A00A6F3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A182EDF226B9F3A00A6F3EC /* Assets.xcassets */; };
+		1A182EE3226B9F3A00A6F3EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A182EE1226B9F3A00A6F3EC /* LaunchScreen.storyboard */; };
+		1A182EEE226B9F3A00A6F3EC /* TokamakExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A182EED226B9F3A00A6F3EC /* TokamakExampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A182EEA226B9F3A00A6F3EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A182ECD226B9F3700A6F3EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A182ED4226B9F3700A6F3EC;
+			remoteInfo = TokamakExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A182ED5226B9F3700A6F3EC /* TokamakExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokamakExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A182ED8226B9F3800A6F3EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A182EDA226B9F3800A6F3EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A182EDD226B9F3800A6F3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A182EDF226B9F3A00A6F3EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A182EE2226B9F3A00A6F3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A182EE4226B9F3A00A6F3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A182EE9226B9F3A00A6F3EC /* TokamakExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokamakExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A182EED226B9F3A00A6F3EC /* TokamakExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokamakExampleTests.swift; sourceTree = "<group>"; };
+		1A182EEF226B9F3A00A6F3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A182ED2226B9F3700A6F3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A182EE6226B9F3A00A6F3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A182ECC226B9F3700A6F3EC = {
+			isa = PBXGroup;
+			children = (
+				1A182ED7226B9F3700A6F3EC /* TokamakExample */,
+				1A182EEC226B9F3A00A6F3EC /* TokamakExampleTests */,
+				1A182ED6226B9F3700A6F3EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A182ED6226B9F3700A6F3EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A182ED5226B9F3700A6F3EC /* TokamakExample.app */,
+				1A182EE9226B9F3A00A6F3EC /* TokamakExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A182ED7226B9F3700A6F3EC /* TokamakExample */ = {
+			isa = PBXGroup;
+			children = (
+				1A182ED8226B9F3800A6F3EC /* AppDelegate.swift */,
+				1A182EDA226B9F3800A6F3EC /* ViewController.swift */,
+				1A182EDC226B9F3800A6F3EC /* Main.storyboard */,
+				1A182EDF226B9F3A00A6F3EC /* Assets.xcassets */,
+				1A182EE1226B9F3A00A6F3EC /* LaunchScreen.storyboard */,
+				1A182EE4226B9F3A00A6F3EC /* Info.plist */,
+			);
+			path = TokamakExample;
+			sourceTree = "<group>";
+		};
+		1A182EEC226B9F3A00A6F3EC /* TokamakExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A182EED226B9F3A00A6F3EC /* TokamakExampleTests.swift */,
+				1A182EEF226B9F3A00A6F3EC /* Info.plist */,
+			);
+			path = TokamakExampleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A182ED4226B9F3700A6F3EC /* TokamakExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A182EF2226B9F3A00A6F3EC /* Build configuration list for PBXNativeTarget "TokamakExample" */;
+			buildPhases = (
+				1A182ED1226B9F3700A6F3EC /* Sources */,
+				1A182ED2226B9F3700A6F3EC /* Frameworks */,
+				1A182ED3226B9F3700A6F3EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokamakExample;
+			productName = TokamakExample;
+			productReference = 1A182ED5226B9F3700A6F3EC /* TokamakExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A182EE8226B9F3A00A6F3EC /* TokamakExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A182EF5226B9F3A00A6F3EC /* Build configuration list for PBXNativeTarget "TokamakExampleTests" */;
+			buildPhases = (
+				1A182EE5226B9F3A00A6F3EC /* Sources */,
+				1A182EE6226B9F3A00A6F3EC /* Frameworks */,
+				1A182EE7226B9F3A00A6F3EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A182EEB226B9F3A00A6F3EC /* PBXTargetDependency */,
+			);
+			name = TokamakExampleTests;
+			productName = TokamakExampleTests;
+			productReference = 1A182EE9226B9F3A00A6F3EC /* TokamakExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A182ECD226B9F3700A6F3EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "James Porter";
+				TargetAttributes = {
+					1A182ED4226B9F3700A6F3EC = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					1A182EE8226B9F3A00A6F3EC = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 1A182ED4226B9F3700A6F3EC;
+					};
+				};
+			};
+			buildConfigurationList = 1A182ED0226B9F3700A6F3EC /* Build configuration list for PBXProject "TokamakExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A182ECC226B9F3700A6F3EC;
+			productRefGroup = 1A182ED6226B9F3700A6F3EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A182ED4226B9F3700A6F3EC /* TokamakExample */,
+				1A182EE8226B9F3A00A6F3EC /* TokamakExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A182ED3226B9F3700A6F3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A182EE3226B9F3A00A6F3EC /* LaunchScreen.storyboard in Resources */,
+				1A182EE0226B9F3A00A6F3EC /* Assets.xcassets in Resources */,
+				1A182EDE226B9F3800A6F3EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A182EE7226B9F3A00A6F3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A182ED1226B9F3700A6F3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A182EDB226B9F3800A6F3EC /* ViewController.swift in Sources */,
+				1A182ED9226B9F3800A6F3EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A182EE5226B9F3A00A6F3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A182EEE226B9F3A00A6F3EC /* TokamakExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A182EEB226B9F3A00A6F3EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A182ED4226B9F3700A6F3EC /* TokamakExample */;
+			targetProxy = 1A182EEA226B9F3A00A6F3EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A182EDC226B9F3800A6F3EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A182EDD226B9F3800A6F3EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A182EE1226B9F3A00A6F3EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A182EE2226B9F3A00A6F3EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A182EF0226B9F3A00A6F3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A182EF1226B9F3A00A6F3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A182EF3226B9F3A00A6F3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJ9JA8AN29;
+				INFOPLIST_FILE = TokamakExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.amimetic.TokamakExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A182EF4226B9F3A00A6F3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJ9JA8AN29;
+				INFOPLIST_FILE = TokamakExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.amimetic.TokamakExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A182EF6226B9F3A00A6F3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJ9JA8AN29;
+				INFOPLIST_FILE = TokamakExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.amimetic.TokamakExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokamakExample.app/TokamakExample";
+			};
+			name = Debug;
+		};
+		1A182EF7226B9F3A00A6F3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJ9JA8AN29;
+				INFOPLIST_FILE = TokamakExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.amimetic.TokamakExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokamakExample.app/TokamakExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A182ED0226B9F3700A6F3EC /* Build configuration list for PBXProject "TokamakExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A182EF0226B9F3A00A6F3EC /* Debug */,
+				1A182EF1226B9F3A00A6F3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A182EF2226B9F3A00A6F3EC /* Build configuration list for PBXNativeTarget "TokamakExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A182EF3226B9F3A00A6F3EC /* Debug */,
+				1A182EF4226B9F3A00A6F3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A182EF5226B9F3A00A6F3EC /* Build configuration list for PBXNativeTarget "TokamakExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A182EF6226B9F3A00A6F3EC /* Debug */,
+				1A182EF7226B9F3A00A6F3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A182ECD226B9F3700A6F3EC /* Project object */;
+}
