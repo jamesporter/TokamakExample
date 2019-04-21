@@ -25,10 +25,7 @@ struct Counter: LeafComponent {
                     onPress: Handler { delta.set { $0 + 1 } },
                     text: "Change Delta (\(delta.value))"
                 )),
-                Label.node(.init(alignment: .center, text: "\(count.value)")),
-                List.node(List.Props(model: [Item(name: "yes")], onSelect: Handler {
-                    print($0.item)
-                }))
+                Label.node(.init(alignment: .center, text: "\(count.value)"))
             ])
     }
 }
