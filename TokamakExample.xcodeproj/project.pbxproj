@@ -17,6 +17,8 @@
 		1AA4AF23226C986700EA0813 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4AF22226C986700EA0813 /* List.swift */; };
 		1AA4AF25226CA33A00EA0813 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4AF24226CA33A00EA0813 /* API.swift */; };
 		1AA4AF27226CA4F000EA0813 /* UpdatesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4AF26226CA4F000EA0813 /* UpdatesList.swift */; };
+		1AA4AF29226CABB400EA0813 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4AF28226CABB400EA0813 /* DetailViewController.swift */; };
+		1AA4AF2B226CB64500EA0813 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA4AF2A226CB64500EA0813 /* WebKit.framework */; };
 		B9E1824569FB9278E62F95D8 /* Pods_TokamakExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795AE11D6EA67AFE73D12A25 /* Pods_TokamakExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		1AA4AF22226C986700EA0813 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		1AA4AF24226CA33A00EA0813 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		1AA4AF26226CA4F000EA0813 /* UpdatesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesList.swift; sourceTree = "<group>"; };
+		1AA4AF28226CABB400EA0813 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1AA4AF2A226CB64500EA0813 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		795AE11D6EA67AFE73D12A25 /* Pods_TokamakExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokamakExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1B35A110931387426125CC /* Pods-TokamakExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokamakExample.debug.xcconfig"; path = "Target Support Files/Pods-TokamakExample/Pods-TokamakExample.debug.xcconfig"; sourceTree = "<group>"; };
 		FB7A95BE8EA93FF473DB918A /* Pods-TokamakExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokamakExample.release.xcconfig"; path = "Target Support Files/Pods-TokamakExample/Pods-TokamakExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA4AF2B226CB64500EA0813 /* WebKit.framework in Frameworks */,
 				B9E1824569FB9278E62F95D8 /* Pods_TokamakExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +107,7 @@
 				1AA4AF26226CA4F000EA0813 /* UpdatesList.swift */,
 				1AA4AF22226C986700EA0813 /* List.swift */,
 				1AA4AF24226CA33A00EA0813 /* API.swift */,
+				1AA4AF28226CABB400EA0813 /* DetailViewController.swift */,
 			);
 			path = TokamakExample;
 			sourceTree = "<group>";
@@ -118,6 +124,7 @@
 		1C3B74D2A472DBF9005E0BB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1AA4AF2A226CB64500EA0813 /* WebKit.framework */,
 				795AE11D6EA67AFE73D12A25 /* Pods_TokamakExample.framework */,
 			);
 			name = Frameworks;
@@ -290,6 +297,7 @@
 				1A182ED9226B9F3800A6F3EC /* AppDelegate.swift in Sources */,
 				1AA4AF21226C825A00EA0813 /* Counter.swift in Sources */,
 				1AA4AF25226CA33A00EA0813 /* API.swift in Sources */,
+				1AA4AF29226CABB400EA0813 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

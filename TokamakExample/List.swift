@@ -30,7 +30,7 @@ struct List: PureLeafComponent {
     }
     
     static func render(props: Props) -> AnyNode {
-        return ListView<Cells>.node(.init(
+        return ListView<Cells>.node(ListView.Props(
             Style(
                 [CenterY.equal(to: .parent),
                  Height.equal(to: 240)]

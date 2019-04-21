@@ -4,7 +4,13 @@ let basicStyle = Style(Edges.equal(to: .safeArea, inset: 20))
 
 struct UpdatesList: LeafComponent {
     struct Props: Equatable {
-        let title: String
+        static func == (lhs: UpdatesList.Props, rhs: UpdatesList.Props) -> Bool {
+            return lhs.uuid == rhs.uuid
+        }
+        
+        let uuid = UUID().uuidString
+        let setTitleFor: (APIData) -> Void
+        let showDetail: (Update) -> Void
     }
     
     static func render(props: Props, hooks: Hooks) -> AnyNode {
@@ -12,6 +18,7 @@ struct UpdatesList: LeafComponent {
         hooks.effect {
             API.refreshData { newState in
                 state.set(newState)
+                props.setTitleFor(newState)
             }
         }
         
@@ -35,11 +42,12 @@ struct UpdatesList: LeafComponent {
                 text: "Loading"
                 ))
         case .loaded(let data):
-            return Label.node(.init(
-                basicStyle,
-                alignment: .center,
-                text: "\(data.count) items loaded"
-                ))
+            return StackView.node(.init(
+                Edges.equal(to: .parent),
+                axis: .vertical,
+                distribution: .fillEqually), [ List.node(List.Props(model: data, onSelect: Handler { idx in props.showDetail(data[idx.item]) }
+            ))
+            ])
         }
     }
 }
