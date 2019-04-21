@@ -1,0 +1,20 @@
+PODS:
+  - Tokamak (0.1.2)
+  - TokamakUIKit (0.1.2):
+    - Tokamak (~> 0.1)
+
+DEPENDENCIES:
+  - TokamakUIKit (~> 0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Tokamak
+    - TokamakUIKit
+
+SPEC CHECKSUMS:
+  Tokamak: 595fe4fb92b23d92289e2387526b10405a2eb144
+  TokamakUIKit: fa9b5bcb2f0f0c4fd5c4c20473ff01cc6b20f32d
+
+PODFILE CHECKSUM: 4596eea1555efb3152bfba9f2b31bb6d2f983b79
+
+COCOAPODS: 1.6.1

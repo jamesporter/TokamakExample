@@ -1,0 +1,6 @@
+framework module Tokamak {
+  umbrella header "Tokamak-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -13,6 +13,7 @@
 		1A182EE0226B9F3A00A6F3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A182EDF226B9F3A00A6F3EC /* Assets.xcassets */; };
 		1A182EE3226B9F3A00A6F3EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A182EE1226B9F3A00A6F3EC /* LaunchScreen.storyboard */; };
 		1A182EEE226B9F3A00A6F3EC /* TokamakExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A182EED226B9F3A00A6F3EC /* TokamakExampleTests.swift */; };
+		B9E1824569FB9278E62F95D8 /* Pods_TokamakExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795AE11D6EA67AFE73D12A25 /* Pods_TokamakExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,9 @@
 		1A182EE9226B9F3A00A6F3EC /* TokamakExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokamakExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A182EED226B9F3A00A6F3EC /* TokamakExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokamakExampleTests.swift; sourceTree = "<group>"; };
 		1A182EEF226B9F3A00A6F3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795AE11D6EA67AFE73D12A25 /* Pods_TokamakExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokamakExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1B35A110931387426125CC /* Pods-TokamakExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokamakExample.debug.xcconfig"; path = "Target Support Files/Pods-TokamakExample/Pods-TokamakExample.debug.xcconfig"; sourceTree = "<group>"; };
+		FB7A95BE8EA93FF473DB918A /* Pods-TokamakExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokamakExample.release.xcconfig"; path = "Target Support Files/Pods-TokamakExample/Pods-TokamakExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E1824569FB9278E62F95D8 /* Pods_TokamakExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,8 @@
 				1A182ED7226B9F3700A6F3EC /* TokamakExample */,
 				1A182EEC226B9F3A00A6F3EC /* TokamakExampleTests */,
 				1A182ED6226B9F3700A6F3EC /* Products */,
+				CD5D47601C1C247E4D1E495D /* Pods */,
+				1C3B74D2A472DBF9005E0BB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +103,24 @@
 			path = TokamakExampleTests;
 			sourceTree = "<group>";
 		};
+		1C3B74D2A472DBF9005E0BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				795AE11D6EA67AFE73D12A25 /* Pods_TokamakExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD5D47601C1C247E4D1E495D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D1B35A110931387426125CC /* Pods-TokamakExample.debug.xcconfig */,
+				FB7A95BE8EA93FF473DB918A /* Pods-TokamakExample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A182EF2226B9F3A00A6F3EC /* Build configuration list for PBXNativeTarget "TokamakExample" */;
 			buildPhases = (
+				2857F5463AB09CBCDF11CCE3 /* [CP] Check Pods Manifest.lock */,
 				1A182ED1226B9F3700A6F3EC /* Sources */,
 				1A182ED2226B9F3700A6F3EC /* Frameworks */,
 				1A182ED3226B9F3700A6F3EC /* Resources */,
+				645BDA449E036D9E47FFAA75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +218,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2857F5463AB09CBCDF11CCE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TokamakExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		645BDA449E036D9E47FFAA75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TokamakExample/Pods-TokamakExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Tokamak/Tokamak.framework",
+				"${BUILT_PRODUCTS_DIR}/TokamakUIKit/TokamakUIKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tokamak.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TokamakUIKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TokamakExample/Pods-TokamakExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A182ED1226B9F3700A6F3EC /* Sources */ = {
@@ -358,6 +434,7 @@
 		};
 		1A182EF3226B9F3A00A6F3EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1B35A110931387426125CC /* Pods-TokamakExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +453,7 @@
 		};
 		1A182EF4226B9F3A00A6F3EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7A95BE8EA93FF473DB918A /* Pods-TokamakExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
